@@ -6,7 +6,7 @@
 	<groupId>com.gf.gallery</groupId>
 	<artifactId>gf-gallery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>gf-gallery</name>
 	<description>Gal Finkelshtain Makeup Artist Gallery loader api from Google Drive</description>
@@ -22,6 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<start-class>com.gf.gallery.GfGalleryApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -70,6 +71,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
